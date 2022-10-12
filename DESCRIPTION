@@ -1,0 +1,27 @@
+Package: RRmultinom
+Type: Package
+Title: Bivariate analysis of  "ever" and "last year" questions
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Maarten",
+           family = "Cruyff",
+           role = c("aut"),
+           email = "m.cruyff@uu.nl",
+           comment = c(ORCID = "0000-0002-6808-8518")),
+      person(given = "Khadiga",
+           family = "Sayed",
+           role = c("ctb", "cre"),
+           email = "k.h.a.sayed@uu.nl"))
+Description: Prevalence estimation and multinomial logistic regression analysis for the bivariate model.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0)
+Imports:
+    stats,
+    MASS,
+    numDeriv,
+    dplyr (>= 1.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
